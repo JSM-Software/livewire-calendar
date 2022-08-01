@@ -1,11 +1,12 @@
 {
-    "name": "asantibanez/livewire-calendar",
+    "name": "jsm-software/livewire-calendar",
     "description": "Laravel Livewire calendar component",
     "keywords": [
         "asantibanez",
+        "JSM-Software",
         "livewire-calendar"
     ],
-    "homepage": "https://github.com/asantibanez/livewire-calendar",
+    "homepage": "https://github.com/JSM-Software/livewire-calendar",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,12 +27,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\": "src"
+            "jsm-software\\LivewireCalendar\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Asantibanez\\LivewireCalendar\\Tests\\": "tests"
+            "jsm-software\\LivewireCalendar\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -45,10 +46,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Asantibanez\\LivewireCalendar\\LivewireCalendarServiceProvider"
+                "jsm-software\\LivewireCalendar\\LivewireCalendarServiceProvider"
             ],
             "aliases": {
-                "LivewireCalendar": "Asantibanez\\LivewireCalendar\\LivewireCalendarFacade"
+                "LivewireCalendar": "jsm-software\\LivewireCalendar\\LivewireCalendarFacade"
             }
         }
     }
